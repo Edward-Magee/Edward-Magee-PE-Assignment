@@ -1,0 +1,23 @@
+.button-container {
+   background-color: #eee;
+   padding: 1rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.confetti {
+   position: absolute;
+   pointer-events: none;
+}
+
+#confetti-button {
+   margin-left: 50%;
+   margin-top: 1.5rem;
+   display: block;
+   transform: translateX(-50%);
+}
+#confetti-count {
+   text-align: center;
+}
